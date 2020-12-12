@@ -120,5 +120,8 @@
       }
     }
   },
-  "defaultProject": "my-ad-app"
+  "defaultProject": "my-ad-app",
+  "cli": {
+    "analytics": false
+  }
 }

@@ -1,0 +1,18 @@
+<header>
+    <div class="navbar-wrap">
+        <p routerLink="" class="logo-wrap">
+            <a class="logo">DESIGN & ACHITECTURE BLOG</a>
+        </p>
+
+        <ul>
+            <li><a routerLink="/architecture">Architecture</a> </li>
+            <li><a routerLink="/design">Design</a> </li>
+            <li ><a routerLink="/register">Register</a> </li>
+            <li *ngIf="!isLogged"><a routerLink="/login">Login</a> </li>
+            
+            
+            <li><a routerLink="/search">Search</a> </li>
+        </ul>
+    </div>
+
+</header>
