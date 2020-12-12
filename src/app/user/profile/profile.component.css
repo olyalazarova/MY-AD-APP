@@ -1,0 +1,36 @@
+h2{
+    font-size: 24px;
+    margin-top: 50px;
+    
+}
+
+.profile{
+    font-family: Helvetica, sans-serif ;
+    font-size: 14px;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+.post-list{
+    margin-top: 20px;
+}
+
+.edit-btn{
+   
+    
+    
+}
+
+.add-post{
+    margin-top: 20px;
+}
+
+.delete-btn{
+    
+
+}
+
+p{
+    margin-bottom: 5px;
+    margin-top: 20px;
+}

@@ -13,7 +13,7 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './core/header/header.component';
 import { FooterComponent } from './core/footer/footer.component';
 import { HomeComponent } from './home/home.component';
-import { AvatarDialogComponent } from './user/avatar-dialog/avatar-dialog.component';
+
 import {NewUserComponent} from './user/new-user/new-user.component';
 import {EditUserComponent} from './user/edit-user/edit-user.component';
 import { FirebaseService } from './services/firebase.service';
@@ -22,6 +22,7 @@ import { ArchitectureComponent } from './architecture/architecture.component';
 import { SearchComponent } from './search/search.component';
 import { DesignComponent } from './design/design.component';
 import { PostDashboardComponent } from './posts/post-dashboard/post-dashboard.component';
+import { ProfileComponent } from './user/profile/profile.component';
 
 
 
@@ -50,7 +51,7 @@ const config = {
     HeaderComponent,
     FooterComponent,
     HomeComponent,
-    AvatarDialogComponent,
+    
     NewUserComponent,
     EditUserComponent,
     LoginUserComponent,
@@ -58,6 +59,7 @@ const config = {
     SearchComponent,
     DesignComponent,
     PostDashboardComponent,
+    ProfileComponent,
     
     
   ],

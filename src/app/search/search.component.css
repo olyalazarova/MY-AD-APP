@@ -1,0 +1,27 @@
+input{
+    width: 30%;
+}
+
+button{
+    margin-left: 10px;
+    font-family: Helvetica, sans-serif ;
+    
+}
+
+form{
+    margin-top: 50px;
+    margin-left: 150px;
+    font-family: Helvetica, sans-serif ;
+    font-size: 14px;
+}
+
+.search-list{
+    font-family: Helvetica, sans-serif ;
+    font-size: 14px;
+}
+
+ul li{
+    list-style-type: none;
+    margin-top: 5px;
+}
+

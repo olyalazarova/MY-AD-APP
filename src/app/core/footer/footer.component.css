@@ -1,0 +1,23 @@
+.footer{
+    
+    background: #333333;
+    color: whitesmoke;
+    border-radius: 4px;
+    font-family: Helvetica, sans-serif ;
+    height: 15%;
+   
+}
+
+.copy{
+    text-align: center;
+    font-size: 12px;
+    padding-bottom: 10px;
+}
+
+.contact{
+    text-align: right;
+    font-size: 12px;
+    padding-top: 10px;
+    padding-right: 25px;
+    font-weight:bold;
+}

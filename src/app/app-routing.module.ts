@@ -6,6 +6,7 @@ import{LoginUserComponent} from './user/login-user/login-user.component';
 import{ArchitectureComponent} from './architecture/architecture.component';
 import{SearchComponent} from './search/search.component';
 import {DesignComponent} from './design/design.component';
+import {ProfileComponent} from './user/profile/profile.component';
 
 const routes: Routes = [
 {
@@ -59,10 +60,17 @@ const routes: Routes = [
   data: {
     title: 'DESIGN'
 }
+
+},
+{
+  path: 'profile',
+  component: ProfileComponent,
+  data: {
+    title: 'PROFILE'
 },
 
 
-
+}
 ];
 
 //@NgModule({

@@ -1,0 +1,61 @@
+.home{
+    display: flex;
+    flex-wrap: wrap;
+    font-family: Helvetica, sans-serif ;
+    font-size: 14px;
+    margin-left: 15%;
+    margin-right: 15%;
+    
+}
+
+h2{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.author{
+    font-style: italic;
+}
+
+.article{
+    margin-top: 20px;
+    width: 25%;
+    padding-left: 10px;
+    
+  
+}
+
+.article-content{
+    max-height: 80px;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.pagination{
+   width: 70%;
+   margin-left: 15%;
+  
+}
+/* Pagination links */
+.pagination a {
+    color: black;
+    float: left;
+    
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color .3s;
+    font-family: Helvetica, sans-serif ;
+    font-size: 14px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    
+  }
+  
+  /* Style the active/current link */
+  .pagination a.active {
+    background-color: grey;
+    color: white;
+  }
+  
+  /* Add a grey background color on mouse-over */
+  .pagination a:hover:not(.active) {background-color: #ddd;}
