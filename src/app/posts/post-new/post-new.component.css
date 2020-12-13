@@ -1,0 +1,27 @@
+.new-post{
+    display: flex;
+    flex-direction: column;
+    font-family: Helvetica, sans-serif ;
+    font-size: 14px;
+}
+
+.title-field{
+    margin-left: 10px;
+}
+
+.title-input{
+    margin-bottom: 10px;
+}
+
+.btns{
+    margin-top: 10px;
+}
+
+.save-btn{
+    margin-right: 10px;
+}
+
+textarea{
+    width: 50%;
+    
+}

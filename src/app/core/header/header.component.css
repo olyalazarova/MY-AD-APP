@@ -1,9 +1,9 @@
 header{
     background: #333333;
     color: whitesmoke;
-    border-radius: 4px;
+   
     font-family: Helvetica, sans-serif ;
-    height: 15%;
+    max-height: 15%;
 }
 
 .navbar-wrap{

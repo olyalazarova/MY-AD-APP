@@ -5,30 +5,37 @@
     font-size: 14px;
     margin-left: 15%;
     margin-right: 15%;
-    
+    max-height: 70%;
 }
 
 h2{
     font-size: 18px;
     font-weight: bold;
+    margin-top: 30px;
+    margin-bottom: 0;
 }
 
 .author{
     font-style: italic;
+    
+    
 }
 
 .article{
-    margin-top: 20px;
+    flex-grow: 1;
     width: 25%;
+    margin-top: 10px;
+    margin-right: 10px;
     padding-left: 10px;
     
   
 }
 
 .article-content{
-    max-height: 80px;
+    max-height:100px;
     overflow: hidden;
-    margin-bottom: 20px;
+    text-align: justify;
+    margin-bottom: 0;
 }
 
 .pagination{
@@ -59,3 +66,7 @@ h2{
   
   /* Add a grey background color on mouse-over */
   .pagination a:hover:not(.active) {background-color: #ddd;}
+
+  .read-btn{
+      margin-top: 10px;
+  }

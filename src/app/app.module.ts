@@ -1,5 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { Injectable } from '@angular/core';
 
 import { AngularFireModule } from '@angular/fire';
 import { AngularFirestoreModule } from '@angular/fire/firestore';
@@ -23,6 +24,8 @@ import { SearchComponent } from './search/search.component';
 import { DesignComponent } from './design/design.component';
 import { PostDashboardComponent } from './posts/post-dashboard/post-dashboard.component';
 import { ProfileComponent } from './user/profile/profile.component';
+import {PostDetailComponent} from './posts/post-detail/post-detail.component';
+import { PostNewComponent } from './posts/post-new/post-new.component';
 
 
 
@@ -60,7 +63,8 @@ const config = {
     DesignComponent,
     PostDashboardComponent,
     ProfileComponent,
-    
+    PostDetailComponent,
+    PostNewComponent,
     
   ],
   imports: [

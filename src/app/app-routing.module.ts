@@ -7,6 +7,8 @@ import{ArchitectureComponent} from './architecture/architecture.component';
 import{SearchComponent} from './search/search.component';
 import {DesignComponent} from './design/design.component';
 import {ProfileComponent} from './user/profile/profile.component';
+import { PostDetailComponent } from './posts/post-detail/post-detail.component';
+import {PostNewComponent} from './posts/post-new/post-new.component';
 
 const routes: Routes = [
 {
@@ -68,9 +70,24 @@ const routes: Routes = [
   data: {
     title: 'PROFILE'
 },
-
-
+},
+{
+  path: 'postdetail',
+  component: PostDetailComponent,
+  data: {
+    title: 'POSTDETAIL'
 }
+},
+
+{
+  path: 'new',
+  component: PostNewComponent,
+  data: {
+    title: 'NEWPOST'
+}
+}
+
+
 ];
 
 //@NgModule({

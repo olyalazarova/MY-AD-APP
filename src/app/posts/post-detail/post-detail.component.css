@@ -1,0 +1,14 @@
+.post-detail{
+    font-family: Helvetica, sans-serif ;
+    font-size: 14px;
+    width: 70%;
+    margin-left: 15%;
+}
+
+h2{
+    font-size: 18px;
+}
+
+.article-content{
+    text-align: justify;
+}

@@ -10,6 +10,7 @@ import { Router} from '@angular/router';
   styleUrls: ['./new-user.component.css']
 })
 export class NewUserComponent implements OnInit {
+ 
 
   constructor(private router: Router, ) 
   { 
@@ -20,6 +21,7 @@ export class NewUserComponent implements OnInit {
     
   }
 
-  
+ 
+
 
 }

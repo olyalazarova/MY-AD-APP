@@ -1,23 +1,29 @@
 .footer{
-    
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
     background: #333333;
     color: whitesmoke;
-    border-radius: 4px;
+    
     font-family: Helvetica, sans-serif ;
-    height: 15%;
-   
+    max-height: 30px;
+    
+    
 }
 
 .copy{
-    text-align: center;
+    
     font-size: 12px;
-    padding-bottom: 10px;
+    padding-left: 10px;
 }
 
 .contact{
-    text-align: right;
+    
     font-size: 12px;
-    padding-top: 10px;
-    padding-right: 25px;
+    padding-right: 30px;
     font-weight:bold;
 }
